@@ -6,22 +6,27 @@
     --card-bg: #1c1c1c;
 }
 
-/* ADDED THIS RULE */
-html {
-    scroll-padding-top: 80px; /* Offset for the sticky navbar */
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family:'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
-    scroll-behavior: smooth; /* Enables smooth scrolling */
 }
 
+/* Updated body and added main for sticky footer */
 body {
     background-color: var(--bg-color);
     color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Navbar Styles */
@@ -38,144 +43,24 @@ body {
     border-bottom: 1px solid var(--card-bg);
 }
 
-.navbar__container {
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 50px;
-}
+/* ... keep the rest of your CSS exactly the same ... */
 
-#navbar__logo {
-    color: var(--accent-color);
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.navbar__menu {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    text-align: center;
-}
-
-.navbar__item {
-    height: 80px;
-}
-
-.navbar__links {
-    color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    padding: 0 1rem;
-    height: 100%;
-    transition: all 0.3s ease;
-}
-
-.navbar__links:hover {
-    color: var(--accent-color);
-}
-
-.navbar__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: var(--accent-color);
-    color: var(--bg-color);
-    font-weight: bold;
-    transition: all 0.3s ease;
-}
-
-.button:hover {
-    background: var(--primary-color);
-    color: var(--bg-color);
-}
-
-/* Main Hero Section Styles */
+/* Main Hero Section Styles (on index.html) */
 .main {
     background: var(--bg-color);
     padding: 150px 0;
+    width: 100%;
 }
 
-.main__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 30px;
-}
+/* ... keep the rest of your CSS exactly the same ... */
 
-.main__content h1 {
-    font-size: 4rem;
-    margin-bottom: 1rem;
-}
-
-.main__content h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: var(--secondary-color);
-}
-
-.main__content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
-
-.main__btn {
-    font-size: 1rem;
-    background-color: var(--accent-color);
-    padding: 14px 32px;
-    border: none;
-    border-radius: 4px;
-    color: var(--bg-color);
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.35s;
-    outline: none;
-}
-
-.main__btn a {
-    position: relative;
-    z-index: 2;
-    color: var(--bg-color);
-    text-decoration: none;
-}
-
-.main__btn:hover {
-    background: var(--primary-color);
-}
-
-/* General Content Section Styles */
+/* General Content Section Styles (for other pages) */
 .content__section {
     padding: 100px 20px;
-    border-top: 1px solid var(--card-bg);
+    width: 100%;
 }
 
+/* ... keep the rest of your CSS exactly the same from here down ... */
 .content__section h1 {
     text-align: center;
     margin-bottom: 3rem;
