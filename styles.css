@@ -6,6 +6,11 @@
     --card-bg: #1c1c1c;
 }
 
+/* ADDED THIS RULE */
+html {
+    scroll-padding-top: 80px; /* Offset for the sticky navbar */
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- deleted readme&#10;- using index.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- Updated index.html to include details and more structure&#10;- added mobile menu bare bones to app.js&#10;- Updated styles.css" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758749369117</updated>
-      <workItem from="1758749370448" duration="3017000" />
+      <workItem from="1758749370448" duration="3386000" />
     </task>
     <task id="LOCAL-00001" summary="- initial files">
       <option name="closed" value="true" />
@@ -87,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758750195656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- Updated index.html to include details and more structure&#10;- added mobile menu bare bones to app.js&#10;- Updated styles.css">
+      <option name="closed" value="true" />
+      <created>1758752603712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758752603712</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- initial files" />
     <MESSAGE value="- deleted readme&#10;- using index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="- deleted readme&#10;- using index.html" />
+    <MESSAGE value="- Updated index.html to include details and more structure&#10;- added mobile menu bare bones to app.js&#10;- Updated styles.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Updated index.html to include details and more structure&#10;- added mobile menu bare bones to app.js&#10;- Updated styles.css" />
   </component>
 </project>
