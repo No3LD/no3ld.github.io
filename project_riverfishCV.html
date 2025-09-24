@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project: CV River Fish Monitoring | Noel D</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="navbar__container">
+    <a href="index.html" id="navbar__logo">ND</a>
+    <div class="navbar__toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__item">
+        <a href="index.html" class="navbar__links">Home</a>
+      </li>
+      <li class="navbar__item">
+        <a href="projects.html" class="navbar__links">Projects</a>
+      </li>
+      <li class="navbar__item">
+        <a href="education.html" class="navbar__links">Education</a>
+      </li>
+      <li class="navbar__item">
+        <a href="about_me.html" class="navbar__links">About Me</a>
+      </li>
+      <li class="navbar__btn">
+        <a href="contact.html" class="button">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <section class="content__section">
+    <h1>Monitoring Freshwater Aquatic Wildlife using Computer Vision</h1>
+    <div class="project-detail__container">
+      <p>With the continued rapid development and improvement of Artificial Intelligence (AI) models,
+        the potential applications have grown significantly. Less explored among these fields is conservation.
+        Predictive Machine Learning (ML) models provide enormous potential applications for collecting data
+        on species and engineering solutions to conservation problems. Among these potential applications is
+        the detection, identification, and consequent census of aquatic species, namely invasive species.
+        This project aims to develop a computer vision model for the detection and classification of
+        freshwater river fish in underwater footage. A successful model could be deployed to analyze footage
+        from cameras installed in dam passes, enabling automated monitoring of local aquatic fauna and
+        invasive species. This project trained detection and classification models using YOLOv11,
+        incorporating multiple data sources with an emphasis on handling low-quality field footage and
+        recognizing invasive species such as Asian Carp. The dataset was split into 80% training and 20%
+        testing. After training, models were evaluated for precision, accuracy, and various other metrics.
+        Our success criteria for model accuracy and precision were set at p ≥ 0.95 for detection and p ≥ 0.9
+        for classification. </p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer__container">
+  <p>&copy; 2025 Dunning, Noel. All rights reserved.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
