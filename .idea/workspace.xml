@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- Added traffic monitoring via Umami Cloud">
+    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- Updated Home page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -86,7 +86,7 @@
       <workItem from="1758749370448" duration="7778000" />
       <workItem from="1759463783780" duration="1847000" />
       <workItem from="1759808746615" duration="1907000" />
-      <workItem from="1761094864235" duration="5144000" />
+      <workItem from="1761094864235" duration="6380000" />
     </task>
     <task id="LOCAL-00001" summary="- initial files">
       <option name="closed" value="true" />
@@ -176,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759463979711</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- Updated Home page">
+      <option name="closed" value="true" />
+      <created>1761175053175</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1761175053175</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +201,7 @@
     <MESSAGE value="- Added new pages not displaying" />
     <MESSAGE value="- Fixed new pages not displaying&#10;- Changed descriptions" />
     <MESSAGE value="- Added traffic monitoring via Umami Cloud" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added traffic monitoring via Umami Cloud" />
+    <MESSAGE value="- Updated Home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Updated Home page" />
   </component>
 </project>

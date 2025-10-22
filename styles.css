@@ -22,10 +22,7 @@ body {
 }
 
 main {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex-grow: 1;
 }
 
 /* Navbar Styles */
@@ -135,12 +132,12 @@ main {
 }
 
 .main__content h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
 .main__content h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-bottom: 1rem;
     color: var(--secondary-color);
 }
