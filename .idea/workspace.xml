@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- Added featured projects to home page&#10;- Moved View more projects button to under featured section&#10;- Changed Education page to Experience">
-      <change afterPath="$PROJECT_DIR$/assets/experience/CV-2025Q4.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- Revamped Experience page&#10;- Aboutme new text&#10;- Contact page changes">
       <change beforePath="$PROJECT_DIR$/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +102,7 @@
       <workItem from="1764391923523" duration="2402000" />
       <workItem from="1764450931756" duration="1970000" />
       <workItem from="1764492812141" duration="15000" />
-      <workItem from="1764522147054" duration="418000" />
+      <workItem from="1764522147054" duration="718000" />
     </task>
     <task id="LOCAL-00001" summary="- initial files">
       <option name="closed" value="true" />
@@ -229,7 +224,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761782614209</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="- Revamped Experience page&#10;- Aboutme new text&#10;- Contact page changes">
+      <option name="closed" value="true" />
+      <created>1764522814328</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1764522814328</updated>
+    </task>
+    <task id="LOCAL-00017" summary="- Revamped Experience page&#10;- Aboutme new text&#10;- Contact page changes">
+      <option name="closed" value="true" />
+      <created>1764522837020</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1764522837020</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +259,7 @@
     <MESSAGE value="- Added traffic monitoring via Umami Cloud" />
     <MESSAGE value="- Updated Home page" />
     <MESSAGE value="- Added featured projects to home page&#10;- Moved View more projects button to under featured section&#10;- Changed Education page to Experience" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added featured projects to home page&#10;- Moved View more projects button to under featured section&#10;- Changed Education page to Experience" />
+    <MESSAGE value="- Revamped Experience page&#10;- Aboutme new text&#10;- Contact page changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Revamped Experience page&#10;- Aboutme new text&#10;- Contact page changes" />
   </component>
 </project>
