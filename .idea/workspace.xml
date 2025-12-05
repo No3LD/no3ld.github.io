@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- Revamped Experience page&#10;- Aboutme new text&#10;- Contact page changes">
+      <change afterPath="$PROJECT_DIR$/images/pigdetctcropped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swine_id_undergrad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_me.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_codonAlign.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_codonAlign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_riverfishCV.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_riverfishCV.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +48,9 @@
     &quot;accountId&quot;: &quot;4aeed1e6-e2d1-49c2-8a68-ba368d799afa&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -47,30 +59,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.about_me.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.contact.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.experience.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.projects.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.about_me.html.executor": "Run",
+    "JavaScript Debug.contact.html.executor": "Run",
+    "JavaScript Debug.experience.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.project_codonAlign.html.executor": "Run",
+    "JavaScript Debug.projects.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\images" />
@@ -102,7 +115,8 @@
       <workItem from="1764391923523" duration="2402000" />
       <workItem from="1764450931756" duration="1970000" />
       <workItem from="1764492812141" duration="15000" />
-      <workItem from="1764522147054" duration="718000" />
+      <workItem from="1764522147054" duration="3059000" />
+      <workItem from="1764968947445" duration="4077000" />
     </task>
     <task id="LOCAL-00001" summary="- initial files">
       <option name="closed" value="true" />
@@ -240,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764522837020</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="- Revamped Experience page&#10;- Aboutme new text&#10;- Contact page changes">
+      <option name="closed" value="true" />
+      <created>1764522907981</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1764522907981</updated>
+    </task>
+    <task id="LOCAL-00019" summary="- Revamped Experience page&#10;- Aboutme new text&#10;- Contact page changes">
+      <option name="closed" value="true" />
+      <created>1764522930495</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1764522930495</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
