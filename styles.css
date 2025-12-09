@@ -211,10 +211,7 @@ main {
     color: var(--accent-color);
 }
 
-/* NEW Styles for Project links */
-.project__link {
-    text-decoration: none;
-}
+
 
 /* NEW Styles for Project Detail Pages */
 .project-detail__container {
@@ -231,11 +228,76 @@ main {
     color: var(--primary-color);
 }
 
-.about__content {
-    max-width: 800px;
+/* === ABOUT ME PAGE STYLES === */
+
+.about__container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem; /* Side padding for the container */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Space between the cards */
+}
+
+.about__card {
+    display: flex;
+    align-items: center; /* Vertically centers text with image */
+    justify-content: center;
+    gap: 2rem;
+
+    /* Box/Card Styling */
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Very subtle static shadow */
+}
+
+/* AUTOMATIC ALTERNATING LAYOUT */
+/* Selects every even card (2nd, 4th) and reverses the direction */
+.about__card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.about__text {
+    flex: 1;
+}
+
+.about__text h2 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.about__text p {
     line-height: 1.6;
-    font-size: 1.1rem;
-    text-align: center;
+    font-size: 1rem;
+    color:var(--primary-color) ;
+}
+
+.about__card img {
+    flex: 1;
+    max-width: 300px; /* Controls image size */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* === MOBILE RESPONSIVENESS (ABOUT_ME)=== */
+@media screen and (max-width: 768px) {
+    .about__card {
+        flex-direction: column !important; /* Stack vertically on mobile */
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    /* Keep the stack order consistent on mobile (Image on top, Text below) */
+    .about__card:nth-child(even) {
+        flex-direction: column !important;
+    }
+
+    .about__card img {
+        max-width: 100%; /* Full width images on phone */
+    }
 }
 
 #contact .content__container p {
@@ -670,4 +732,59 @@ main {
 .navbar__links.active {
     border-bottom: 2px solid var(--accent-color);
     padding-bottom: 0.1rem;
+}
+
+/* === MAIN PROJECTS PAGE === */
+
+.project__container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* 1. Make the link behave like a block container */
+.project__link {
+    text-decoration: none;
+    display: block; /* Crucial: makes the link fill the container width */
+    color: inherit; /* Inherits text color so headers don't turn blue */
+}
+
+.project__row {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+
+    /* 2. Add smooth animation for the hover effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    border: 1px solid transparent; /* invisible border to prevent layout jump on hover */
+}
+
+.project__row img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.project__text h2 {
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.project__text p {
+    color: var(--primary-color);
+    line-height: 1.5;
+}
+
+/* When the link is hovered, style the row inside it */
+.project__link:hover .project__row {
+    transform: scale(1.02); /* Makes the whole box grow slightly */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* Adds a pop-up shadow */
+    border-color: var(--accent-color); /* Optional: Highlights the border */
 }
