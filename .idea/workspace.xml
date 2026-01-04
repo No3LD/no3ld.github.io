@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- Redesigned About_Me&#10;- Redesigned Projects Page&#10;- Added images for projects page (swine, rivereye)">
+    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- Added CV download button to global navbar&#10;- Removed LinkedIn and Download CV buttons from experience.html&#10;-  Added LinkedIn Button to contact.html">
+      <change afterPath="$PROJECT_DIR$/assets/icons/award.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/lang_seal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/lectern.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/experience/CV-2025Q4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CV-2025Q4.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_codonAlign.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_codonAlign.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_riverfishCV.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_riverfishCV.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/swine_id_undergrad.html" beforeDir="false" afterPath="$PROJECT_DIR$/swine_id_undergrad.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,9 +90,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\assets" />
+      <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\assets\icons" />
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\images" />
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\assets\experience" />
-      <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\assets" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -118,7 +124,8 @@
       <workItem from="1764968947445" duration="5388000" />
       <workItem from="1765315976735" duration="4622000" />
       <workItem from="1767487002612" duration="890000" />
-      <workItem from="1767487919597" duration="991000" />
+      <workItem from="1767487919597" duration="1182000" />
+      <workItem from="1767553576209" duration="15232000" />
     </task>
     <task id="LOCAL-00001" summary="- initial files">
       <option name="closed" value="true" />
@@ -288,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765324453676</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="- Added CV download button to global navbar&#10;- Removed LinkedIn and Download CV buttons from experience.html&#10;-  Added LinkedIn Button to contact.html">
+      <option name="closed" value="true" />
+      <created>1767489047938</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1767489047938</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +325,7 @@
     <MESSAGE value="- Revamped Experience page&#10;- Aboutme new text&#10;- Contact page changes" />
     <MESSAGE value="- Added navbar underline current page&#10;- added images for featured projects&#10;- added swine ID project&#10;- Changed featured project 2 to swine ID&#10;- changed global section padding from 100px 20px to 40px 20px" />
     <MESSAGE value="- Redesigned About_Me&#10;- Redesigned Projects Page&#10;- Added images for projects page (swine, rivereye)" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Redesigned About_Me&#10;- Redesigned Projects Page&#10;- Added images for projects page (swine, rivereye)" />
+    <MESSAGE value="- Added CV download button to global navbar&#10;- Removed LinkedIn and Download CV buttons from experience.html&#10;-  Added LinkedIn Button to contact.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added CV download button to global navbar&#10;- Removed LinkedIn and Download CV buttons from experience.html&#10;-  Added LinkedIn Button to contact.html" />
   </component>
 </project>
