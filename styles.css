@@ -1,9 +1,9 @@
 :root {
-    --bg-color: #131313;
-    --primary-color: #ffffff;
-    --secondary-color: #a0a0a0;
-    --accent-color: #58a6ff;
-    --card-bg: #1c1c1c;
+    --bg-color: #0A2540;
+    --primary-color: #F1F5F9;
+    --secondary-color: #F6C343;
+    --accent-color: #22C7A9;
+    --card-bg: #2C4056;
 }
 
 * {
@@ -134,6 +134,7 @@ main {
 .main__content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: var(--primary-color);
 }
 
 .main__content h2 {
@@ -144,7 +145,8 @@ main {
 
 .main__content p {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
 }
 
 .main__btn {
@@ -203,12 +205,12 @@ main {
 }
 
 .content__card:hover {
-    transform: scale(1.02); /* Adds a subtle zoom effect on hover */
+    transform: scale(1.03); /* Adds a subtle zoom effect on hover */
 }
 
 .content__card h2 {
     margin-bottom: 1rem;
-    color: var(--accent-color);
+    color: var(--primary-color);
 }
 
 
@@ -263,7 +265,7 @@ main {
 }
 
 .about__text h2 {
-    color: var(--accent-color);
+    color: var(--primary-color);
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -305,7 +307,7 @@ main {
     padding: 2rem;
     text-align: center;
     border-top: 1px solid var(--card-bg);
-    color: var(--secondary-color);
+    color: var(--accent-color);
 }
 
 /* Mobile Responsive Styles */
@@ -414,11 +416,16 @@ main {
     flex-direction: column;
     max-width: 400px;
     overflow: hidden; /* Keeps image corners rounded */
-    transition: transform 0.3s ease; /* The hover animation */
+
+    /* 2. Add smooth animation for the hover effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    border: 1px solid transparent; /* invisible border to prevent layout jump on hover */
 }
 
 .project-box:hover {
-    transform: scale(1.03); /* The "grow" effect */
+    transform: scale(1.03); /* Makes the whole box grow slightly */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* Adds a pop-up shadow */
+    border-color: var(--accent-color); /* Optional: Highlights the border */
 }
 
 .project-box img {
@@ -433,7 +440,7 @@ main {
 }
 
 .project-box__content h2 {
-    color: var(--accent-color);
+    color: var(--primary-color);
     margin-bottom: 0.5rem;
 }
 
@@ -540,7 +547,14 @@ main {
 }
 
 .edu-card h2 {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.edu-card h3 {
     color: var(--accent-color);
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -575,6 +589,15 @@ main {
     color: var(--primary-color);
 }
 
+.history__text h3 {
+    color: var(--accent-color);
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
 /* -- 3. Awards Section -- */
 .awards__container {
     display: flex;
@@ -606,11 +629,11 @@ main {
 
 .award-icon {
     font-size: 3rem; /* Size of the emoji icon */
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
 }
 
 .award-box h3 {
-    color: var(--accent-color);
+    color: var(--primary-color);
     margin-bottom: 0.5rem;
 }
 
@@ -647,7 +670,7 @@ main {
 }
 
 .action-btn:hover {
-    transform: scale(1.05); /* Grows slightly on hover */
+    transform: scale(1.03); /* Grows slightly on hover */
     background-color: var(--primary-color);
     box-shadow: 0 6px 8px rgba(0,0,0,0.15);
 }
@@ -657,20 +680,16 @@ main {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 3rem; /* Spacing between items */
+    gap: 2rem; /* Spacing between items */
 }
 
 .lab__item {
     display: flex;
-    align-items: flex-start; /* Aligns text and image at the top */
-    gap: 2rem;
-    padding-bottom: 3rem;
-    border-bottom: 1px solid #e0e0e0; /* Subtle dividing line */
-}
-
-/* Remove the border from the last item */
-.lab__item:last-child {
-    border-bottom: none;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--card-bg); /* Optional: Remove if you want transparent background */
+    border-radius: 8px;
 }
 
 .lab__content {
@@ -686,7 +705,7 @@ main {
     color: var(--accent-color);
     font-size: 1rem;
     font-weight: normal;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-style: italic;
 }
 
@@ -694,9 +713,10 @@ main {
     width: 250px;
     height: 180px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 8px;
     /* Optional: minimal shadow just for the image to make it pop */
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    flex-shrink: 0; /* Prevents image from shrinking when text gets long */
 }
 
 /* -- Mobile Responsiveness -- */
@@ -770,7 +790,39 @@ main {
 
 /* When the link is hovered, style the row inside it */
 .project__link:hover .project__row {
-    transform: scale(1.02); /* Makes the whole box grow slightly */
+    transform: scale(1.03); /* Makes the whole box grow slightly */
     box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* Adds a pop-up shadow */
     border-color: var(--accent-color); /* Optional: Highlights the border */
+}
+
+/* === DIVIDER LINES === */
+
+/* Full width separating line */
+.divider-full {
+    width: 100%;
+    height: 2px; /* Thickness */
+    background-color: var(--secondary-color); /* Color */
+    margin: 0.5rem 0; /* Vertical spacing */
+    opacity: 0.75;
+    border-radius: 2px;
+}
+
+/* Small accent line (centered by default) */
+.divider-small {
+    width: 80px; /* Short width */
+    height: 4px; /* Slightly thicker */
+    background-color: var(--secondary-color);
+    margin: 0.75rem auto; /* 'auto' centers it horizontally */
+    opacity: 0.75;
+    border-radius: 2px;
+}
+
+/* Small accent line (left aligned) */
+.divider-small-left {
+    width: 80px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    margin: 1rem 0; /* Aligned to the left */
+    opacity: 0.75;
+    border-radius: 2px;
 }
