@@ -50,14 +50,30 @@ main {
     padding: 0 50px;
 }
 
+/* === LOGO STYLES === */
+
 #navbar__logo {
-    color: var(--accent-color);
     display: flex;
-    align-items: center;
+    align-items: center; /* Vertically centers the image */
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
-    font-weight: bold;
+    /* Removed: font-size, background-image, text-fill-color, etc. */
+}
+
+.navbar__logo-img {
+    height: 50px; /* Adjust this to fit your navbar height */
+    width: auto;  /* Maintains the aspect ratio */
+    object-fit: contain;
+
+    /* Optional: If you want a circular icon */
+    /* border-radius: 50%; */
+}
+
+/* Mobile responsiveness adjustments */
+@media screen and (max-width: 960px) {
+    .navbar__logo-img {
+        height: 40px; /* Slightly smaller on mobile */
+    }
 }
 
 .navbar__menu {
