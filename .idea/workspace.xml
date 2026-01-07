@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- updated footer to 2026">
+    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- Reordered Awards section on experience.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +134,7 @@
       <workItem from="1767487002612" duration="890000" />
       <workItem from="1767487919597" duration="1182000" />
       <workItem from="1767553576209" duration="15767000" />
-      <workItem from="1767720431928" duration="17245000" />
+      <workItem from="1767720431928" duration="17918000" />
     </task>
     <task id="LOCAL-00001" summary="- initial files">
       <option name="closed" value="true" />
@@ -361,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767749241882</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="- Reordered Awards section on experience.html">
+      <option name="closed" value="true" />
+      <created>1767749884888</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1767749884888</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,6 +408,7 @@
     <MESSAGE value="- Major Content updates for RiverEye&#10;- Image content for all pages&#10;- Thumbnail changes" />
     <MESSAGE value="- fixed mobile issues for about me page" />
     <MESSAGE value="- updated footer to 2026" />
-    <option name="LAST_COMMIT_MESSAGE" value="- updated footer to 2026" />
+    <MESSAGE value="- Reordered Awards section on experience.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Reordered Awards section on experience.html" />
   </component>
 </project>
