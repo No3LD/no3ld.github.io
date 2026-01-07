@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/assets/icons/Branding.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cvat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/data1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/data2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dna_codon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fish_2_thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mathnasium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/petsmart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pig_2_thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/problem_carp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/process.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/profile.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sitting_rock.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/uiuc_aces.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/uiuc_campus.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_codonAlign.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_codonAlign.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_riverfishCV.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_riverfishCV.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/swine_id_undergrad.html" beforeDir="false" afterPath="$PROJECT_DIR$/swine_id_undergrad.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,65 +55,80 @@
     &quot;assignee&quot;: &quot;No3LD&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/No3LD/no3ld.github.io.git&quot;,
-    &quot;accountId&quot;: &quot;4aeed1e6-e2d1-49c2-8a68-ba368d799afa&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/No3LD/no3ld.github.io.git",
+    "accountId": "c81a532f-b439-430a-a5c9-c134fd3295f7"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="33AABifMpxFb3AJZSARljgnLaoq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.about_me.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.contact.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.experience.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.project_codonAlign.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.project_riverfishCV.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.projects.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/noelm/OneDrive/Desktop/Career/Website/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.about_me.html.executor": "Run",
+    "JavaScript Debug.contact.html.executor": "Run",
+    "JavaScript Debug.experience.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.project_codonAlign.html.executor": "Run",
+    "JavaScript Debug.project_riverfishCV.html.executor": "Run",
+    "JavaScript Debug.projects.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "C:/Users/Guest1/WebstormProjects/no3ld.github.io/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Guest1\WebstormProjects\no3ld.github.io\images" />
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Guest1\WebstormProjects\no3ld.github.io\images" />
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\assets\icons" />
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\assets" />
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\images" />
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\assets\experience" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:8080/no3ld.github.io/index.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
       </set>
     </attachedChunks>
   </component>
@@ -127,6 +155,7 @@
       <workItem from="1767487002612" duration="890000" />
       <workItem from="1767487919597" duration="1182000" />
       <workItem from="1767553576209" duration="15767000" />
+      <workItem from="1767720431928" duration="14593000" />
     </task>
     <task id="LOCAL-00001" summary="- initial files">
       <option name="closed" value="true" />

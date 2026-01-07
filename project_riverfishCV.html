@@ -43,24 +43,103 @@
 
 <main>
   <section class="content__section">
-    <h1>Monitoring Freshwater Aquatic Wildlife using Computer Vision</h1>
-    <div class="project-detail__container">
-      <p>Predictive Machine Learning (ML) models provide enormous potential applications for collecting data
-        on species and engineering solutions to conservation problems. Among these potential applications is
-        the detection, identification, and consequent census of aquatic species, namely invasive species.
-        This project aims to develop a computer vision model for the detection and classification of
-        freshwater river fish in underwater footage. A successful model could be deployed to analyze footage
-        from cameras installed in dam passes, enabling automated monitoring of local aquatic fauna and
-        invasive species. This project trained detection and classification models using YOLOv11,
-        incorporating multiple data sources with an emphasis on handling low-quality field footage and
-        recognizing invasive species such as Asian Carp. The dataset was split into 80% training and 20%
-        testing. After training, models were evaluated for precision, accuracy, and various other metrics.
-        Our success criteria for model accuracy and precision were set at p ≥ 0.95 for detection and p ≥ 0.9
-        for classification. </p>
+
+    <h1 style="margin-bottom: 3rem;">Riverfish Computer Vision</h1>
+
+    <div class="details__container">
+
+      <div class="detail-row">
+        <div class="detail-text">
+          <h2>Overview</h2>
+          <p>
+            RiverEye is my personal project, which aims to improve the monitoring of local populations of freshwater fish in midwest rivers using deep learning based object detection and image classification models.
+          </p>
+        </div>
+        <div class="detail-image">
+          <img src="images/fish_2_thumbnail.png" alt="Overview Image">
+        </div>
+      </div>
+
+      <div class="detail-row">
+        <div class="detail-text">
+          <h2>Target Problem</h2>
+          <p>
+            Manual monitoring of fish populations is invasive, time-consuming, and prone to human inconsistency. This tool would allow researchers and Natural Resource Departments to gather accurate data on local populations without the need for manually filtering through large swaths of video or physically netting fish. This saves time, ensures that researchers can focus on interpreting data and making informed ecological decisions, while minimizing the impact of monitoring on aquatic wildlife. Additionally, enabling Natural Resource Departments to more quickly and effectively identify and quantify populations of invasive species ensures that they can act rapidly to protect native species.
+          </p>
+        </div>
+        <div class="detail-image">
+          <img src="images/problem_carp.jpg" alt="Problem Context Image">
+        </div>
+      </div>
+
+      <div class="detail-row">
+        <div class="detail-text">
+          <h2>Goals</h2>
+          <p>
+            This project has three main goals: <br>
+            1. Develop an object detection model with high accuracy and precision for low-medium quality images with varying light and visibility conditions (Target mAP >= 0.98). <br>
+            2. Develop an image classification model that can identify common midwestern species, game species, and invasive species reliably (Target mAP >= 0.95). <br>
+            3. Deploy both models into a web app for use by researchers and Natural Resource Departments.
+          </p>
+        </div>
+        <div class="detail-image">
+          <img src="images/process.png" alt="Goals Image">
+        </div>
+      </div>
+
+      <div class="detail-row">
+        <div class="detail-text">
+          <h2>Dataset</h2>
+          <p>
+            Data was acquired from Dr. Cory Suski's Lab (Justin Lombardo, MS Student) in the Natural Resources Department at the Univeristy of Illinois. The dataset included ~2 hours of total footage. Footage was captured using a stationary camera aimed at Bass Nests and using an underwater camera while diving. This dataset was specifically acquired to be diverse in terms of quality, lighting, and general visibility so that the model would be able to maintain accuracy in these situations. Data for the preliminary classifier model was found primarily online from reputable, legal sources. <br> <br>
+            After receiving the raw video data, I split the videos into frames, and ran software to remove images with a high degree of similarity (>0.85). After creating a base set of images, I uploaded the dataset to CVAT where I began the labeling process for the object detection model. The preliminary object detection model training set consisted of 500 labeled images.<br><br>
+            Data for the preliminary classifier was separated into 10 folders; One for each species of fish. Each folder contained 15 images for a total training set of 150 images.
+          </p>
+        </div>
+        <div class="image-stack">
+          <div class="detail-image">
+            <img src="images/data1.png" alt="Dataset Image 1">
+          </div>
+          <div class="detail-image">
+            <img src="images/data2.png" alt="Dataset Image 2">
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-row">
+        <div class="detail-text">
+          <h2>Preliminary Models</h2>
+          <p> Preliminary models for both object detection and classification were trained using an 80-20 train/val split and used a pretrained YOLOv8 model as a foundation. They were trained on 30 epochs and 60 epochs respectively.<br><br>
+            Validation on the preliminary object detection model showed mean average precision at 0.91 (mAP = 0.91). This demonstrates proof of concept and indicates that expansions on the dataset and fine-tuning of parameters will yield subsequent performance improvements. <br><br>
+            Preliminary classifier validation also demonstrated proof of concept and potential for improvements, with the model struggling when species were closely related, but performing reliably on unique target species such as the invasive Asian carp. Results are summarized in the adjacent confusion matrix.
+
+          </p>
+        </div>
+        <div class="image-stack">
+          <div class="detail-image">
+            <img src="images/fishdetect_1.jpg" alt="Object Detection Image">
+          </div>
+          <div class="detail-image">
+            <img src="images/fish_classifier_confmat.png" alt="Confusion Matrix">
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-row">
+        <div class="detail-text">
+          <h2>Current Objectives</h2>
+          <p>
+            Data labeling is the current objective of RiverEye. I have ~5000 images that will make up the dataset for my newest detection model version, which will be trained locally using YOLOv11. They contain images with variable quality, environments, and fish from sections of the Illinois River, which I hope will contribute strongly to the robustness of subsequent detection models.
+          </p>
+        </div>
+        <div class="detail-image">
+          <img src="images/cvat.png" alt="Future Work Image">
+        </div>
+      </div>
+
     </div>
   </section>
 </main>
-
 <footer class="footer__container">
   <p>&copy; 2025 Dunning, Noel. All rights reserved.</p>
 </footer>

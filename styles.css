@@ -231,19 +231,83 @@ main {
 
 
 
-/* NEW Styles for Project Detail Pages */
-.project-detail__container {
-    max-width: 800px;
+/* === PROJECT DETAILS PAGE === */
+
+.details__container {
+    max-width: 1000px;
     margin: 0 auto;
-    background-color: var(--card-bg);
-    padding: 2rem 3rem;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem; /* Vertical space between sections */
 }
 
-.project-detail__container p {
-    line-height: 1.7;
+.detail-row {
+    display: flex;
+    align-items: center; /* Vertically centers text with card */
+    justify-content: space-between;
+    gap: 3rem; /* Space between text block and image card */
+}
+
+/* AUTOMATIC ALTERNATING LAYOUT */
+/* Every even row (2nd, 4th, 6th) reverses direction */
+.detail-row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.detail-text {
+    flex: 1; /* Text takes up available space */
+}
+
+.detail-text h2 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.detail-text p {
+    line-height: 1.6;
     font-size: 1.1rem;
-    color: var(--primary-color);
+    color: var(--text-color);
+}
+
+/* === THE IMAGE CARD === */
+.detail-image {
+    flex: 1; /* Takes up available space */
+
+    /* Card Styling */
+    background-color: var(--card-bg); /* Uses your theme's card color */
+    padding: 1rem; /* Creates the white framing around the image */
+    border-radius: 12px; /* Rounds the corners of the card */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Adds depth */
+
+    /* Centering the image inside the card */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-image img {
+    width: 100%; /* Fills the card content area */
+    height: auto;
+    border-radius: 4px; /* Optional: slight rounding on the actual photo */
+    object-fit: cover;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .detail-row {
+        flex-direction: column !important; /* Always stack on mobile */
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .detail-row:nth-child(even) {
+        flex-direction: column !important; /* Keep stack order consistent */
+    }
+
+    .detail-image {
+        width: 100%; /* Card fills width on mobile */
+    }
 }
 
 /* === ABOUT ME PAGE STYLES === */
@@ -841,4 +905,70 @@ main {
     margin: 1rem 0; /* Aligned to the left */
     opacity: 0.75;
     border-radius: 2px;
+}
+
+/* === IMAGE STACK WRAPPER === */
+.image-stack {
+    flex: 1; /* Takes up the same half-width space as before */
+    display: flex;
+    flex-direction: column; /* Forces items inside to stack vertically */
+    gap: 1.5rem; /* Adds space between the top and bottom images */
+}
+
+/* Mobile Tweak: Ensure the stack takes full width on phones */
+@media screen and (max-width: 768px) {
+    .image-stack {
+        width: 100%;
+    }
+}
+
+/* === UNDER CONSTRUCTION BANNER === */
+.construction-banner {
+    background-color: rgba(255, 193, 7, 0.1); /* Low opacity amber */
+    border: 1px solid #ffc107; /* Amber border */
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: #ffc107; /* Text color matches border */
+}
+
+.construction-icon {
+    font-size: 2.5rem; /* Large Emoji size */
+}
+
+.construction-content h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #ffc107;
+}
+
+.construction-content p {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--text-color); /* Keeps body text readable */
+    opacity: 0.9;
+}
+
+/* === COMING SOON PLACEHOLDER === */
+.coming-soon-container {
+    background-color: var(--card-bg);
+    padding: 4rem 2rem;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px dashed var(--accent-color); /* Dashed border style */
+    margin-top: 2rem;
+}
+
+.coming-soon-container h2 {
+    margin: 1rem 0;
+    color: var(--primary-color);
+}
+
+.coming-soon-container p {
+    margin-bottom: 2rem;
+    color: var(--text-color);
 }
