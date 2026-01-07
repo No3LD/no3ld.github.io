@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- fixed typo in project_riverfishCV.html">
+    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/assets/experience/CV-Noel-Dunning.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CV-2025Q4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_codonAlign.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_codonAlign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_riverfishCV.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_riverfishCV.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swine_id_undergrad.html" beforeDir="false" afterPath="$PROJECT_DIR$/swine_id_undergrad.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +36,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -38,77 +46,63 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/No3LD/no3ld.github.io.git&quot;,
-    &quot;accountId&quot;: &quot;c81a532f-b439-430a-a5c9-c134fd3295f7&quot;
+    &quot;accountId&quot;: &quot;4aeed1e6-e2d1-49c2-8a68-ba368d799afa&quot;
   }
 }</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="33AABifMpxFb3AJZSARljgnLaoq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.about_me.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.contact.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.experience.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.project_codonAlign.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.project_riverfishCV.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.projects.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Guest1/WebstormProjects/no3ld.github.io/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.about_me.html.executor": "Run",
+    "JavaScript Debug.contact.html.executor": "Run",
+    "JavaScript Debug.experience.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.project_codonAlign.html.executor": "Run",
+    "JavaScript Debug.project_riverfishCV.html.executor": "Run",
+    "JavaScript Debug.projects.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/noelm/OneDrive/Desktop/Career/Website/assets/experience",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Guest1\WebstormProjects\no3ld.github.io\images" />
+      <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\assets\experience" />
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Guest1\WebstormProjects\no3ld.github.io\images" />
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\assets\icons" />
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\assets" />
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\images" />
       <recent name="C:\Users\noelm\OneDrive\Desktop\Career\Website\assets\experience" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:8080/no3ld.github.io/index.html">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
       </set>
     </attachedChunks>
   </component>
@@ -135,8 +129,6 @@
       <workItem from="1767487002612" duration="890000" />
       <workItem from="1767487919597" duration="1182000" />
       <workItem from="1767553576209" duration="15767000" />
-      <workItem from="1767720431928" duration="17918000" />
-      <workItem from="1767803011072" duration="647000" />
     </task>
     <task id="LOCAL-00001" summary="- initial files">
       <option name="closed" value="true" />
@@ -338,47 +330,7 @@
       <option name="project" value="LOCAL" />
       <updated>1767571974804</updated>
     </task>
-    <task id="LOCAL-00026" summary="- Major Content updates for RiverEye&#10;- Image content for all pages&#10;- Thumbnail changes">
-      <option name="closed" value="true" />
-      <created>1767745369928</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1767745369928</updated>
-    </task>
-    <task id="LOCAL-00027" summary="- fixed mobile issues for about me page">
-      <option name="closed" value="true" />
-      <created>1767747208573</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1767747208574</updated>
-    </task>
-    <task id="LOCAL-00028" summary="- updated footer to 2026">
-      <option name="closed" value="true" />
-      <created>1767749241882</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1767749241882</updated>
-    </task>
-    <task id="LOCAL-00029" summary="- Reordered Awards section on experience.html">
-      <option name="closed" value="true" />
-      <created>1767749884888</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1767749884888</updated>
-    </task>
-    <task id="LOCAL-00030" summary="- fixed typo in project_riverfishCV.html">
-      <option name="closed" value="true" />
-      <created>1767803136186</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1767803136186</updated>
-    </task>
-    <option name="localTasksCounter" value="31" />
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,11 +367,6 @@
     <MESSAGE value="- Implemented new color palette&#10;- Card hover animations tweaked&#10;- Changed color used by certain text&#10;- Made hover transform 1.03 globally&#10;- Major content updates for experience.html&#10;- Changed Research and Lab Methodologies Section to card format&#10;- Added aesthetic dividers on multiple pages&#10;- Replaced award emojis with SVG Icons" />
     <MESSAGE value="- replaced text logo with icon logo in navbar" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <MESSAGE value="- Major Content updates for RiverEye&#10;- Image content for all pages&#10;- Thumbnail changes" />
-    <MESSAGE value="- fixed mobile issues for about me page" />
-    <MESSAGE value="- updated footer to 2026" />
-    <MESSAGE value="- Reordered Awards section on experience.html" />
-    <MESSAGE value="- fixed typo in project_riverfishCV.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="- fixed typo in project_riverfishCV.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
 </project>
