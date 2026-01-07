@@ -378,7 +378,15 @@ main {
     }
 
     .about__card img {
-        max-width: 100%; /* Full width images on phone */
+        /* CHANGED: Cap the width so it doesn't fill the whole screen */
+        max-width: 280px;
+
+        width: 100%; /* Allows it to shrink smaller if the screen is tiny */
+        height: auto; /* Maintains aspect ratio */
+
+        /* ADDED: Centers the image horizontally */
+        display: block;
+        margin: 0 auto;
     }
 }
 

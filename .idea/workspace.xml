@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/images/cvat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/data1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/data2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dna_codon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fish_2_thumbnail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mathnasium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/petsmart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pig_2_thumbnail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/problem_carp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/profile.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sitting_rock.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/uiuc_aces.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/uiuc_campus.png" afterDir="false" />
+    <list default="true" id="e4ab6966-c655-475e-9c97-5e6c69f3d524" name="Changes" comment="- Major Content updates for RiverEye&#10;- Image content for all pages&#10;- Thumbnail changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_codonAlign.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_codonAlign.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_riverfishCV.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_riverfishCV.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swine_id_undergrad.html" beforeDir="false" afterPath="$PROJECT_DIR$/swine_id_undergrad.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +26,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -155,7 +134,7 @@
       <workItem from="1767487002612" duration="890000" />
       <workItem from="1767487919597" duration="1182000" />
       <workItem from="1767553576209" duration="15767000" />
-      <workItem from="1767720431928" duration="14593000" />
+      <workItem from="1767720431928" duration="15831000" />
     </task>
     <task id="LOCAL-00001" summary="- initial files">
       <option name="closed" value="true" />
@@ -357,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767571974804</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="- Major Content updates for RiverEye&#10;- Image content for all pages&#10;- Thumbnail changes">
+      <option name="closed" value="true" />
+      <created>1767745369928</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1767745369928</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,6 +381,7 @@
     <MESSAGE value="- Implemented new color palette&#10;- Card hover animations tweaked&#10;- Changed color used by certain text&#10;- Made hover transform 1.03 globally&#10;- Major content updates for experience.html&#10;- Changed Research and Lab Methodologies Section to card format&#10;- Added aesthetic dividers on multiple pages&#10;- Replaced award emojis with SVG Icons" />
     <MESSAGE value="- replaced text logo with icon logo in navbar" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="- Major Content updates for RiverEye&#10;- Image content for all pages&#10;- Thumbnail changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Major Content updates for RiverEye&#10;- Image content for all pages&#10;- Thumbnail changes" />
   </component>
 </project>
