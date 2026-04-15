@@ -763,6 +763,22 @@ main {
     box-shadow: 0 6px 8px rgba(0,0,0,0.15);
 }
 
+.action-btn--icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    min-width: unset;
+    width: 52px;
+    height: 52px;
+}
+
+.action-btn__icon {
+    width: 28px;
+    height: 28px;
+    display: block;
+}
+
 .lab__container {
     max-width: 900px;
     margin: 0 auto;
