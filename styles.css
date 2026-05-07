@@ -777,6 +777,10 @@ main {
     display: block;
 }
 
+.action-btn__icon--linkedin {
+    height: 30px;
+}
+
 .lab__container {
     max-width: 900px;
     margin: 0 auto;
